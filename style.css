@@ -20,45 +20,7 @@ header {
     font-weight: bold;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-}
 
-nav li {
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #ffd700; /* Warna kuning untuk efek hover */
-}
-
-@media only screen and (max-width: 576px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav {
-        margin-top: 10px;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-}
 /* batas header */
 main{
     max-width: 576px;
