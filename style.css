@@ -1,5 +1,6 @@
 body {
     max-height: max-content;
+    max-width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -23,11 +24,10 @@ header {
 
 /* batas header */
 main{
-    max-width: 576px;
+    max-width: 100%;
     max-height: max-content;
     color: #ff0000;
     background-color:  #27031e;;
-    margin: auto;
 }
 .container {
     padding: 20px;
@@ -356,7 +356,7 @@ main{
   100% { opacity: 1; }
 }
 .content {
-    max-width: 500px;
+    max-width: 100%;
     margin: auto;
     color: #f6f6f0;
     background-color: #639597;
@@ -366,28 +366,8 @@ main{
     border-radius: 25px;
     padding-left: 20px;
 }
-.grid-kolom {
-    background-color: #008080;
-    max-width: 500px;
-    padding: 20px;
-    grid-auto-columns: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    justify-content: space-between;
-}
-
-.grid-item {
-    width: 100px;
-    height: 200px;
-    margin-bottom: 20px;
-    padding: 20px;;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 .content2 {
-    max-width:500px;
+    max-width:100%;
     margin: auto;
     color: #f6f6f0;
     background-color: #639597;
@@ -419,4 +399,11 @@ footer a {
 footer img {
     width: 15px; /* Sesuaikan ukuran logo sesuai kebutuhan */
     margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px; /* Ubah ukuran font untuk perangkat seluler */
+  }
+
+  /* Tambahkan gaya tambahan atau ubah tata letak untuk perangkat seluler di sini */
 }
