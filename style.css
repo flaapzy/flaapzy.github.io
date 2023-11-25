@@ -1,11 +1,13 @@
 body {
+    height: max-content;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
+    background-color: #27031e;
     padding: 0;
 }
 header {
     color: #edfdf4;
-    background-color: #27031e;
+    background-color: #241e23;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -15,8 +17,9 @@ header {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: bold;
+    color: #ff0000;
 }
 
 
@@ -24,10 +27,11 @@ header {
 main{
     max-width: 100%;
     margin: auto;
-    max-height: max-content;
+    height: 100%;
     color: #ff0000;
     background-color:  #27031e;
     text-align: center;
+    padding: 0;
 }
 .container {
     padding: 20px;
@@ -185,8 +189,13 @@ main{
     text-align: left;
     margin: 0;
     margin-left: 10px;
-    
 }
+
+
+/* ANIMASI SCROLL */
+
+
+
 .mouse_scroll {
 	display: block;
 	margin: 0 auto;
@@ -359,54 +368,68 @@ main{
   max-width: 100%;
   display: flex;
   margin: auto;
-  padding-left: 10px;
+  margin-left: 15px;
+  margin-top: 5px;
 }
 .social img {
-  width: 20px;
+  width: 22px;
   border-radius: 10px;
 }
 .content {
     max-width: 100%;
     margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
     color: #f6f6f0;
-    background-color: #639597;
     text-align: justify;
     padding: 20px;
-    border: 2px;
+    border: 2px solid #edfdf4;
     border-radius: 25px;
     padding-left: 20px;
 }
 .content2 {
-    max-width:100%;
-    margin: auto;
+    width: auto;
+    margin: 20px 20px auto;
+    margin-bottom: 0;
     color: #f6f6f0;
-    background-color: #639597;
     text-align: justify;
     padding: 20px;
-    border: 2px;
+    border: 2px solid #edfdf4;
     border-radius: 25px;
     padding-left: 20px;
-}
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    bottom: 0;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    margin: auto;
+    margin-bottom: 50px;
 }
 
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+footer h2 {
+  color: #f6f6f0;
+  padding-top: 20px;
+}
+footer h4 {
+  padding-bottom: 0;
+}
+footer p {
+  text-align: justify;
+  padding: 20px;
+}
 footer a {
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer img {
-    width: 15px; /* Sesuaikan ukuran logo sesuai kebutuhan */
-    margin-bottom: 10px;
+  margin-top: 0;
+  width: 25px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+  margin-bottom: 10px;
 }
