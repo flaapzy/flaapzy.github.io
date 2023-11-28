@@ -167,7 +167,6 @@ main{
     margin-bottom: 0;
     text-align: left;
     padding-left: 10px;
-    cursor: pointer;
     user-select: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
