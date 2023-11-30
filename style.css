@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 header {
-    color: #edfdf4;
+    
     background-color: #232946;
     padding-left: 20px;
     display: flex;
@@ -20,8 +20,22 @@ header {
     font-family: 'Teko', sans-serif;
     font-size: 2.5em;
     font-weight: bold;
-    color: #fff;
-}
+    color: transparent;
+    background-image: linear-gradient(90deg, #ff0000, #0000ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: colorAnimation 5s infinite alternate;
+  }
+  
+  @keyframes colorAnimation {
+      0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+  }
+
 
 
 /* batas header */
